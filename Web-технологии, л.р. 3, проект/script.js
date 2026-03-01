@@ -22,7 +22,7 @@ function auth() {
     }
 
     if (!validateEmail(email)) {
-        infoText.innerHTML = "Некоррекртный адрес почты!";
+        infoText.innerHTML = "Некорректный адрес почты!";
         return null;
     }
     
@@ -36,7 +36,7 @@ function auth() {
     if (is_found)
         infoText.innerHTML = "Вход выполнен!";
     else
-        infoText.innerHTML = "Пользователь не найлен!";
+        infoText.innerHTML = "Пользователь не найден!";
 };
 
 
